@@ -1,0 +1,249 @@
+@charset "utf-8";
+
+body{
+	background-image: linear-gradient(#68e5ff, 	#6495ED);
+	/*background-color: #00FF7F;*/
+}
+
+body#index{
+	background-image: url(imgL/1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #68e5ff;
+	background-size: 100% 100%;
+
+}
+
+header{
+	background-image: url('imgL/principal.png');
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 95%; 
+	margin-left: 2%;
+	margin-right: 2%;
+	border-radius:20px;
+	background-size: 100% 100%;
+}
+
+header img#img{
+	margin-top:5px;
+	margin-left:5px;
+	float: left;
+	display: block;
+	width: 600px;
+	margin-bottom:10px;
+	border-radius: 10px;
+}
+
+div#regLotas{
+	padding: 10px;
+	border-style: solid;
+	border-radius: 10px;
+	background-color: white;
+	border-top-color: grey;
+	border-right-color: grey;
+	border-bottom-color: lightgreen;
+	border-left-color: lightgreen;  
+	border-width: 5px;
+}
+
+#regLotas img#imgPerfil{
+	border-radius: 6px;
+	float: left;
+	margin-right:20px;
+	width: 170px;
+	height: 190px;
+
+}
+
+#imagensRegLota{
+	 display: inline;
+}
+
+#imagensRegLota img{
+	width: 250px;
+	height: 250px;
+	margin-top: 5px;
+}
+
+section{
+	margin-top:40px;
+	background-color: white;
+	border-radius:20px;
+	margin:5px;
+}
+
+section#index{
+	margin-top:20px;
+	margin-left:39%;
+	width: 400px;
+	height: 340px;
+	padding-top:10px;
+	padding-left:50px;
+}
+
+section#Lotas{
+	padding:10px;
+	margin-left:2%;
+	margin-right:2%;
+}
+
+form input[type=file]{
+	margin-left:37%;
+}
+form#formLogin p{
+	font-family: Andale Mono, monospace;
+	margin-left:20px; 
+}
+
+#inputImgusuario{
+	margin-left:-40px;
+	width: 100px;
+	float: left;
+}
+
+section#lotas2{ 
+	margin:25px;
+	margin-left:2%;
+	margin-right:2%;
+	background-color: transparent;
+}
+
+
+a#botao{
+	float: right; 
+	margin-right: 100px; 
+	padding:8px; 
+	margin-top:-10px; 
+	background-color: #6495ED; 
+	color: white;
+	text-decoration: none;
+	border-radius:5px;
+}
+
+#container a#botao:hover{
+	background-color: purple;
+	transition: 0.75s;
+}
+
+span#deslogar a{
+	float: right; 
+	margin-right: 100px; 
+	padding:8px; 
+	margin-top:4px; 
+	width: 90px;
+	background-color: purple; 
+	color: white;
+	text-decoration: none;
+	border-radius:5px;
+}
+
+span#deslogar a:hover{
+	background-color: #6495ED;
+	transition: 0.75s;
+}
+
+/*PARA DISPOSITIVOS DE ATÉ 900px de largura*/
+@media only screen and (max-width: 900px){
+    body#index{
+        background-image: url(imgL/2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #68e5ff;
+        background-size: 100% 100%;
+    }
+	header img#img{
+		width:300px;
+		margin-left:23%;
+		margin-top:20px;
+	}
+
+	header{
+		background-color: white;
+		margin-top:-15px;
+		height:205px;
+		background-image: url(imgL/logo.png);
+		background-size: 100% 100%;
+	}
+
+	div#title{
+		margin-left: -50px;
+		border-left: thick solid #ff0000;;
+	}
+
+	header h3{
+		padding:0px;
+		margin-top:0px;
+		font-size: 27pt;
+		margin-left:10%;
+		margin-right: 5%;
+		color:black;
+		-webkit-text-stroke-width: 2px; /* largura da borda */
+    	-webkit-text-stroke-color: black;
+	}
+
+	form input[type=file]{
+		margin-left:18%;
+		margin-bottom:-50px; 
+	}
+
+	section#index{
+		margin-top:75px;
+		margin-left:14%;
+		width: 400px;
+		height: 340px;
+		padding-top:10px;
+		padding-left:50px;
+	}
+
+	section#Lotas{
+		margin-top:0px;
+	}
+
+	a#botao{
+		margin-top:-85px;
+	}
+    
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 900px){
+	header{
+		height: 250px;
+		background-size: 100% 100%;
+	}
+
+	header img#img{
+		width:520px;
+	}
+
+	div#title{ 
+		width:600px;
+		height: 250px;
+		float: right;
+		margin-right:-200px;
+		display: inline-block;
+		border-left: thick solid black;
+	}
+
+	header h3{
+		margin-top: -45px;
+		padding-left:10px;
+		overflow-wrap: inherit;
+	}	
+
+	form input[type=file]{
+		margin-left:30%;
+		margin-bottom:-50px; 
+	}
+
+	section#index{
+		margin-top:20px;
+		margin-left:29%;
+		width: 400px;
+		height: 340px;
+		padding-top:10px;
+		padding-left:50px;
+	}
+
+    
+}
