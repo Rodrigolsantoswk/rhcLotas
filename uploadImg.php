@@ -20,7 +20,7 @@
 		for($i= 0; $i<count($arquivo['name']); $i++){
 			//Objeto _UP contendo todos os parametros de upload
 			$_UP['pasta'] ='fotos/'; //Dir
-			$_UP['tamanho'] = 1024*1024*100; //tamanho máximo 5mb
+			$_UP['tamanho'] = 1024*1024*15; //tamanho máximo 15mb
 			$_UP['extensao'] = array('png', 'jpg', 'jpeg', 'gif'); //extensões permitidas
 			$_UP['renomeia']=true; //true = renomeia o arquivo aleatoriamente.
 			$_UP['erros'][0]= 'Não houveram erros.';
